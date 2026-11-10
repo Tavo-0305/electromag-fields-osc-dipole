@@ -1,0 +1,30 @@
+
+# Requisito: tener conda instalado (Anaconda o Miniconda).
+#
+# INSTRUCCIONES
+# 1. Abra una terminal
+# 2. Vaya a la carpeta que contiene este archivo y el cuaderno:
+#        cd ruta/a/la/carpeta
+# 3. Cree el entorno. Solo hace falta la primera vez y descarga las librerías:
+#        conda env create -f environment.yml
+# 4. Active el entorno:
+#        conda activate dipolo
+# 5. Abrir el jupyter
+#
+# Las figuras se guardan en la carpeta "figuras", junto al cuaderno.
+#
+# Para borrar el entorno al terminar:
+#        conda deactivate
+#        conda env remove -n dipolo
+
+name: dipolo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy>=2.0
+  - matplotlib>=3.8
+  - sympy>=1.12
+  - ipywidgets>=8.0
+  - jupyterlab>=4.0
+  - ipykernel

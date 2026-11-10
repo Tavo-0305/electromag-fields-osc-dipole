@@ -1,0 +1,8 @@
+#Environments 
+./env 
+#Jupyter 
+.ipynb_checkpoints/ 
+#vs_code
+.vscode/
+#OS
+.DS_Store
